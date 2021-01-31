@@ -1,0 +1,26 @@
+.header-main {
+    padding:5px;
+    text-align: center;
+    background-color: orangered;
+    height: 55px;
+    font-size: 50px;
+}
+
+.navigation {
+    height: 15px;
+    text-align: center;
+    background-color: orangered;
+}
+
+.nav-tab {
+    display: inline;
+    float:left;
+    width: 32.00%;
+    padding: 5px;
+    text-align: center;
+    background-color: orangered;
+}
+
+.navigation::after {
+    clear: both;
+}
